@@ -1,0 +1,53 @@
+ Different between Document and Window objects
+
+
+ These two objects, which are at the core of the Document Object Model (DOM), serve different purposes and play essential parts in the development of web applications.
+
+
+DOCUMENT OBJECTS:
+
+
+>Represents the structure and content of a webpage.
+
+
+>Allows manipulation of HTML elements on the webpage.
+
+
+>Handles webpage-specific things >Limited to a single webpage, with a limited scope.
+
+
+>Limited cross-window communication, usually contained within iframes.
+
+
+>Used for picking and changing factors on the webpage.
+
+
+>Accessed through ‘window. document’ for webpage content communication.
+
+
+
+WINDOW OBJECTS:
+
+
+>The browser window or tab is represented by this object.
+
+
+>Browser-specific properties and methods are provided.
+
+
+>Manages browser events and user interactions.
+
+
+>Assembled as part of the global JavaScript scope, and accessible from any script on the page.
+
+
+>Allows communication between browser windows or tabs.
+
+
+>Browser actions, navigation, and timing operations are all controlled by this part of the program.
+
+
+>Gives you access to 'window. location', 'window. history', and other browser control features.
+
+
+
